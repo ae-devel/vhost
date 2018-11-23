@@ -1,0 +1,3 @@
+<?php
+
+	echo 'VHOST.RASP1.DEV, INDEX CTONROLLER';
