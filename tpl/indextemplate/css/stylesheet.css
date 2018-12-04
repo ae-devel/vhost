@@ -1,0 +1,10 @@
+.index-page {
+	padding: 50px;
+}
+
+.index-page__title {
+	font-family: Arial;
+	font-size: 24px;
+	color: #000;
+	text-transform: uppercase;
+}
