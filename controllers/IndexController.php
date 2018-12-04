@@ -1,3 +1,3 @@
 <?php
 
-	echo strtoupper( $_SERVER[ 'HTTP_HOST' ] ) . ', INDEX CTONROLLER';
+	echo strtoupper( $_SERVER[ 'SERVER_NAME' ] ) . ', INDEX CTONROLLER';
