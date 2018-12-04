@@ -1,3 +1,3 @@
 <?php
 
-	echo 'VHOST.RASP1.DEV, INDEX CTONROLLER';
+	echo strtoupper( $_SERVER[ 'HTTP_HOST' ] ) . ', INDEX CTONROLLER';
