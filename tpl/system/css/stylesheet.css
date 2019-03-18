@@ -1,0 +1,21 @@
+body, html {
+	color: #000;
+	font-size: 16px;
+	font-family: Arial, sans-serif;
+}
+
+.page-container {
+	padding: 50px;
+}
+
+.page-container__title-1 {
+	font-size: 6.250em;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.page-container__title-2 {
+	font-size: 1.5em;
+	text-transform: uppercase;
+	text-align: center;
+}
