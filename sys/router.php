@@ -12,6 +12,12 @@
 			include_once PATH_CONTROLLERS_DIR . '/IndexController.php';
 		
 			break;
+
+        case '/replication/':
+		
+			include_once PATH_CONTROLLERS_DIR . '/ReplicationController.php';
+		
+			break;
 		
 		
 			

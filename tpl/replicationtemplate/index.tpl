@@ -5,13 +5,8 @@
   <link rel="stylesheet" type="text/css" href="<?php echo $Data[ 'template_path' ]?>/css/stylesheet.css" />
 </head>
 <body>
-	<div class="index-page">
-		<div class="index-page__title"><?php echo $Data[ 'server_name' ] ?></div>
+	<div class="replication-page">
+		<div class="replication-page__title">REPLICATION</div>
 	</div>
-    <div class="index-page__navigator">
-        <div class="navigator__item">
-            <a class="navigator__link" href="/replication/">Replication</a>
-        </div>
-    </div>
 </body>
 </html>

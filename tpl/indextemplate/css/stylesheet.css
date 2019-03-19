@@ -8,3 +8,17 @@
 	color: #000;
 	text-transform: uppercase;
 }
+
+.index-page__navigator {
+    padding: 0px 50px;
+}
+
+.navigator__item {
+    margin: 10px 0;
+}
+
+.navigator__link {
+    font: normal 16px/16px Arial;
+    text-transform: uppercase;
+    color: #585858;
+}
