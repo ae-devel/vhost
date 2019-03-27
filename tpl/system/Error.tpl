@@ -7,8 +7,9 @@
 </head>
 <body>
 	<div class="page-container">
-		<div class="page-container__title-1">404</div>
-		<div class="page-container__title-2">Sorry, Page Not Found</div>
+		<div class="page-container__title-1">500</div>
+		<div class="page-container__title-2">Something going wrong</div>
+		<div class="page-container__error-info"><?php echo $Data[ 'ErrorMessage' ];?></div>
 	</div>
 </body>
 </html>
