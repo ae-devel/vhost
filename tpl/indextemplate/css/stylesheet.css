@@ -1,5 +1,8 @@
 .index-page {
-	padding: 50px;
+	width: 800px;
+	padding: 50px 50px 20px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .index-page__title {
@@ -10,7 +13,10 @@
 }
 
 .index-page__navigator {
-    padding: 0px 50px;
+    background-color: #eee;
+	color: #505050;
+	padding: 50px;
+	margin-top: 50px;
 }
 
 .navigator__item {
