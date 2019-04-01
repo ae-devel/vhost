@@ -13,6 +13,9 @@
 			<div class="navigator__item">
 				<a class="navigator__link" href="/replication/">Replication</a>
 			</div>
+			<div class="navigator__item">
+				<a class="navigator__link" href="/failover/">Failover</a>
+			</div>
 		</div>
 	</div>
 </body>

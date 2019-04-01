@@ -4,6 +4,7 @@
 	ini_set( 'display_errors', 'on' );
 	
 	define( 'PATH_SYSTEM_DIR', dirname( __FILE__ ) );
+	define( 'PATH_ROOT_DIR', dirname( __FILE__ ) . '/..' );
 	define( 'PATH_CLASSES_DIR', dirname( __FILE__ ) . '/../classes' );
 	define( 'PATH_CONTROLLERS_DIR', dirname( __FILE__ ) . '/../controllers' );
 	define( 'PATH_TPL_DIR', dirname( __FILE__ ) . '/../tpl' );

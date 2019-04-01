@@ -24,6 +24,18 @@
 			include_once PATH_CONTROLLERS_DIR . '/ReplicationControllerAjax.php';
 		
 			break;
+			
+		case '/failover/':
+		
+			include_once PATH_CONTROLLERS_DIR . '/FailoverController.php';
+		
+			break;
+			
+		case '/failover_ajax/':
+		
+			include_once PATH_CONTROLLERS_DIR . '/FailoverControllerAjax.php';
+		
+			break;
 		
 		
 			
