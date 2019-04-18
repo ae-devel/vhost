@@ -36,6 +36,19 @@
 			include_once PATH_CONTROLLERS_DIR . '/FailoverControllerAjax.php';
 		
 			break;
+			
+		case '/jobserver/':
+		
+			include_once PATH_CONTROLLERS_DIR . '/JobserverController.php';
+		
+			break;
+			
+			
+		case '/jobserver_ajax/':
+		
+			include_once PATH_CONTROLLERS_DIR . '/JobserverControllerAjax.php';
+		
+			break;
 		
 		
 			
