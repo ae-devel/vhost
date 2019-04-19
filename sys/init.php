@@ -8,6 +8,7 @@
 	define( 'PATH_CLASSES_DIR', dirname( __FILE__ ) . '/../classes' );
 	define( 'PATH_CONTROLLERS_DIR', dirname( __FILE__ ) . '/../controllers' );
 	define( 'PATH_TPL_DIR', dirname( __FILE__ ) . '/../tpl' );
+	define( 'PATH_DATA_DIR', dirname( __FILE__ ) . '/../data' );
 	
 	include_once PATH_SYSTEM_DIR . '/config.php';
 	include_once PATH_CLASSES_DIR . '/CommonFunctions.php';
