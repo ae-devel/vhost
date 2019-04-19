@@ -17,10 +17,18 @@
 		<div class="g-mb10">
 			Master host: <?php echo $Data[ 'master_host' ]; ?>
 		</div>
+		<div class="g-mb10">
+			<div><strong>Run in the Cron schedule under root user:</strong></div>
+			* * * * * /var/www/vhost.rasp1.dev/shell/db_shutdown.sh
+		</div>
 		<div class="page__data-block">
 			<span class="page__data-title">SELECT FROM THE MASTER ( <?php echo $Data[ 'master_host' ]; ?> )</span>
 			<div class="g-mb10">
+				<?php if ( $Data[ 'shutdown_in_schedule' ] ):  ?>
+				Shutdown in schedule, please wait
+				<?php else: ?>
 				<a class="js-shutdown-button" href="#">Shutdown master</a>&nbsp;&nbsp;
+				<?php endif; ?>
 				<a class="js-refresh-page-button" href="#">Refresh page</a>&nbsp;&nbsp;
 			</div>
 			<div class="js-codes-container">

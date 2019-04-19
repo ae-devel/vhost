@@ -50,6 +50,7 @@
 			'codes' => $Codes,
 			'slave_host' => $SlaveHostData[ 'host' ],
 			'master_host' => $MasterHostData[ 'host' ],
+			'shutdown_in_schedule' => intval( file_exists( PATH_DATA_DIR . '/db_shutdown_flag.txt' ) ),
 		);
 		
 		include_once PATH_TPL_DIR . '/failovertemplate/index.tpl';

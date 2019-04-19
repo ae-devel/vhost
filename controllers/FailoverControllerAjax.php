@@ -14,9 +14,9 @@
 		switch( $_REQUEST[ 'action' ] ) {
 			case 'shutdown_master':
 
-				$ShellPath = PATH_ROOT_DIR . '/shell/db_shutdown.sh';
-
-				shell_exec( $ShellPath );
+				$FilePath = PATH_DATA_DIR . '/db_shutdown_flag.txt';
+				$FileHandler = fopen( $FilePath, 'w' );
+				fclose( $FileHandler );
 				
 				$Response = array(
 					'status' => 'ok',
