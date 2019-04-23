@@ -19,6 +19,9 @@
 			<div class="navigator__item">
 				<a class="navigator__link" href="/jobserver/">Gearman job server</a>
 			</div>
+			<div class="navigator__item">
+				<a class="navigator__link" href="/memcache/">Memcache</a>
+			</div>
 		</div>
 	</div>
 </body>

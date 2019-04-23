@@ -49,6 +49,20 @@
 			include_once PATH_CONTROLLERS_DIR . '/JobserverControllerAjax.php';
 		
 			break;
+			
+			
+		case '/memcache/':
+		
+			include_once PATH_CONTROLLERS_DIR . '/MemcacheController.php';
+		
+			break;
+			
+			
+		case '/memcache_ajax/':
+		
+			include_once PATH_CONTROLLERS_DIR . '/MemcacheControllerAjax.php';
+		
+			break;
 		
 		
 			
