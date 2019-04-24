@@ -63,6 +63,13 @@
 			include_once PATH_CONTROLLERS_DIR . '/MemcacheControllerAjax.php';
 		
 			break;
+			
+			
+		case '/memcache_session/':
+		
+			include_once PATH_CONTROLLERS_DIR . '/MemcacheSessionController.php';
+		
+			break;
 		
 		
 			

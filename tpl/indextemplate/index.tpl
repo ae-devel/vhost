@@ -22,6 +22,9 @@
 			<div class="navigator__item">
 				<a class="navigator__link" href="/memcache/">Memcache</a>
 			</div>
+			<div class="navigator__item">
+				<a class="navigator__link" href="/memcache_session/">Memcache session</a>
+			</div>
 		</div>
 	</div>
 </body>
